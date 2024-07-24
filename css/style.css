@@ -6811,12 +6811,19 @@ blockquote {
     width: 100%;
     color: #555;
     font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.typography .numbered ol li :last-child{
+    margin-bottom: 0px;
 }
 
 .typography .numbered.color ol > li::before {
     border: 1px solid #66676b;
     color: #66676b;
     border-radius: 50px;
+    margin-top: 10px;
 }
 
 .typography .numbered ol > li::before {
