@@ -2847,6 +2847,10 @@ input[type="checkbox"]:checked + label::before {
     max-width: 500px;
     margin: 0 auto;
 }
+.carousel-item img{
+    max-height: 550px;
+    width: 100%;
+}
 
 .testimonial-2 .carousel-item {
     max-width: 100%;
